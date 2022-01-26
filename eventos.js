@@ -26,7 +26,7 @@ if (nomeEvento != "") {
             alert("O total de participantes excedeu o limite permitido");
         }
         alert(`A lista com o nome dos palestrantes é: ${nomePalestrantes}.`)
-        alert(`Os participantes cadastrados são:`);
+        alert('Os participantes cadastrados são:');
         for(let i = 0; i < listaParticipantes.length; i++) {
            alert(listaParticipantes[i]); 
         }
