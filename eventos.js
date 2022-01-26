@@ -13,12 +13,12 @@ if (nomeEvento != "") {
         alert("Cadastro de palestrantes!");
         let nomePalestrantes = prompt("Escreva o nome dos palestrantes separados por vírgula:")
 
-        alert("Verificação inicial para cadastro de participantes!");
-        let menores = prompt("Entre os participantes há alguém menor de 18 anos, sim ou não?")
-        if (menores.trim().toUpperCase() != "SIM") {
-            let nomeParticipantes = prompt("Escreva o nome dos participantes separados por vírgula:")
+        alert("Verificação inicial para cadastro de participante!");
+        let idadeParticipante = parseInt(prompt("Entre com a idade do participante"))
+        if (idadeParticipante >= 18) {
+            let nomeParticipante = prompt("Escreva o nome do participante")
             alert(`A lista com o nome dos palestrantes é: ${nomePalestrantes}.`)
-            alert(`A lista com o nome dos participantes é: ${nomeParticipantes}.`)
+            alert(`O participante cadastrado é: ${nomeParticipante}.`)
         } else {
             alert("Não são permitidos menores de 18 anos no evento!");
         }
