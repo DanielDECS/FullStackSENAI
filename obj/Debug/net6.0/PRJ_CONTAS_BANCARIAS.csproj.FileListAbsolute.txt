@@ -1,0 +1,15 @@
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\bin\Debug\net6.0\PRJ_CONTAS_BANCARIAS.exe
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\bin\Debug\net6.0\PRJ_CONTAS_BANCARIAS.deps.json
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\bin\Debug\net6.0\PRJ_CONTAS_BANCARIAS.runtimeconfig.json
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\bin\Debug\net6.0\PRJ_CONTAS_BANCARIAS.dll
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\bin\Debug\net6.0\PRJ_CONTAS_BANCARIAS.pdb
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\PRJ_CONTAS_BANCARIAS.csproj.AssemblyReference.cache
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\PRJ_CONTAS_BANCARIAS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\PRJ_CONTAS_BANCARIAS.AssemblyInfoInputs.cache
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\PRJ_CONTAS_BANCARIAS.AssemblyInfo.cs
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\PRJ_CONTAS_BANCARIAS.csproj.CoreCompileInputs.cache
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\PRJ_CONTAS_BANCARIAS.dll
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\refint\PRJ_CONTAS_BANCARIAS.dll
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\PRJ_CONTAS_BANCARIAS.pdb
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\PRJ_CONTAS_BANCARIAS.genruntimeconfig.cache
+C:\Workspace\Senai\PRJ_CONTAS_BANCARIAS\obj\Debug\net6.0\ref\PRJ_CONTAS_BANCARIAS.dll
