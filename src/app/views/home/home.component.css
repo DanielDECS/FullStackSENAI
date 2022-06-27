@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
-
-/* CSS reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
 
 /* Header content */
 header {
@@ -14,10 +5,6 @@ header {
     background-color: #3500AF;
     height: 90px;
 }
-/* .container-grid {
-    width: 1200px;
-    margin: 0 auto;
-}*/
 
 body {
     min-height: 100vh;
@@ -29,6 +16,7 @@ body {
 
 footer {
     min-height: 50px;
+    width: 100%;
 }
 
 #bars {
@@ -109,7 +97,7 @@ footer {
     font-size: 22px;
 }
 
-hr {
+.bar {
     width: 100%;
     height: 5px;
     background-color: #3500AF;
