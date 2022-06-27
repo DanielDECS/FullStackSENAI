@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt">
 
-<head onload="changeProduct()">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Site de vendas de produtos da linha gamer">
@@ -19,7 +19,7 @@
     <title>GameMania</title>
 </head>
 
-<body onload="changeProduct()">
+<body onload="carrousel()">
     <header>
         <div class="container main-header">
             <a href="index.html"><img src="assets/Logo.png" class="logo" alt="logo game mania"></a>
@@ -27,7 +27,7 @@
                 <a href="index.html" target="_blank">Início</a>
                 <a href="login.html" target="_blank">Entrar</a>
             </nav>
-            <a href="#" id="bars">
+            <a href="#" id="bars" onclick="showMenu()">
                 <img class="menu-icon" src="assets/bars-solid.svg" alt="Icone do menu de barras">
             </a>
         </div>
@@ -48,73 +48,37 @@
     <main>
         <section class="container">
             <div class="products-title">PRODUTOS GAMER</div>
-            <div idclass="card-list">
-                <div id="product1" class="card">
-                    <div class="product1 product-global"></div>
-                    <h3>Gamer 1</h3>
-                    <p>PC Gamer Completo</p>
-                    <p><b>R$ 11.000.00</b></p>
-                    <p><b>10x</b> 1.100.00</p>
-                    <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
-                </div>
-                <div id="product2" class="card">
-                    <div class="product2 product-global"></div>
-                    <h3>Gamer 2</h3>
-                    <p>PC Gamer Completo</p>
-                    <p><b>R$ 11.000.00</b></p>
-                    <p><b>10x</b> 1.100.00</p>
-                    <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
-                </div>
-                <div id="product3" class="card">
-                    <div class="product3 product-global"></div>
-                    <h3>Gamer 3</h3>
-                    <p>PC Gamer Completo</p>
-                    <p><b>R$ 11.000.00</b></p>
-                    <p><b>10x</b> 1.100.00</p>
-                    <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
-                </div>
-                <div id="product4" class="card">
-                    <div class="product4 product-global"></div>
-                    <h3>Gamer 4</h3>
-                    <p>PC Gamer Completo</p>
-                    <p><b>R$ 11.000.00</b></p>
-                    <p><b>10x</b> 1.100.00</p>
-                    <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
-                </div>
+            <div id="product1" class="card">
+                <div class="product1 product-global"></div>
+                <h3>Gamer 1</h3>
+                <p>PC Gamer Completo</p>
+                <p><b>R$ 11.000.00</b></p>
+                <p><b>10x</b> 1.100.00</p>
+                <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
             </div>
-            <div class="carousel">
-                <div id="product1" class="card">
-                    <div class="product1 product-global"></div>
-                    <h3>Gamer 1</h3>
-                    <p>PC Gamer Completo</p>
-                    <p><b>R$ 11.000.00</b></p>
-                    <p><b>10x</b> 1.100.00</p>
-                    <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
-                </div>
-                <div id="product2" class="card">
-                    <div class="product2 product-global"></div>
-                    <h3>Gamer 2</h3>
-                    <p>PC Gamer Completo</p>
-                    <p><b>R$ 11.000.00</b></p>
-                    <p><b>10x</b> 1.100.00</p>
-                    <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
-                </div>
-                <div id="product3" class="card">
-                    <div class="product3 product-global"></div>
-                    <h3>Gamer 3</h3>
-                    <p>PC Gamer Completo</p>
-                    <p><b>R$ 11.000.00</b></p>
-                    <p><b>10x</b> 1.100.00</p>
-                    <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
-                </div>
-                <div id="product4" class="card" visibility="hidden">
-                    <div class="product4 product-global"></div>
-                    <h3>Gamer 4</h3>
-                    <p>PC Gamer Completo</p>
-                    <p><b>R$ 11.000.00</b></p>
-                    <p><b>10x</b> 1.100.00</p>
-                    <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
-                </div>
+            <div id="product2" class="card">
+                <div class="product2 product-global"></div>
+                <h3>Gamer 2</h3>
+                <p>PC Gamer Completo</p>
+                <p><b>R$ 11.000.00</b></p>
+                <p><b>10x</b> 1.100.00</p>
+                <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
+            </div>
+            <div id="product3" class="card">
+                <div class="product3 product-global"></div>
+                <h3>Gamer 3</h3>
+                <p>PC Gamer Completo</p>
+                <p><b>R$ 11.000.00</b></p>
+                <p><b>10x</b> 1.100.00</p>
+                <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
+            </div>
+            <div id="product4" class="card">
+                <div class="product4 product-global"></div>
+                <h3>Gamer 4</h3>
+                <p>PC Gamer Completo</p>
+                <p><b>R$ 11.000.00</b></p>
+                <p><b>10x</b> 1.100.00</p>
+                <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
             </div>
         </section>
     </main>
