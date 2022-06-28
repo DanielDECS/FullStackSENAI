@@ -1,56 +1,42 @@
+//Função de exibição do menu carrousel
+function carrousel() {
+    let product1 = document.getElementById("product1");
+    let product2 = document.getElementById("product2");
+    let product3 = document.getElementById("product3");
+    let product4 = document.getElementById("product4");
+    let slideAtual = 1;
+    let listaSlides = [product1, product2, product3, product4];
 
-// Função de exibição do menu de barras para layout responsivo
+    setInterval(changeProduct, 2000);
+
+    function changeProduct() {
+        console.log("Slide atual: " + slideAtual);
+        // Remove o slide anterior
+        if (slideAtual > 0) {
+            listaSlides[slideAtual - 1].style.display = "none";
+        } else if (slideAtual == 0) {
+            listaSlides[(listaSlides.length) - 1].style.display = "none";
+        }
+
+        // Adiciona o  slide atual
+        (listaSlides[slideAtual]).style.display = "flex";
+
+        // Indica o side atual
+        slideAtual++
+
+        if(slideAtual > (listaSlides.length) - 1){
+            slideAtual = 0
+        }
+    }
+}
+
+//Função de exibição do menu de barras para layout responsivo
 $(document).ready(function() {
     $("#bars").click(function() {
-        // Menu carousel
-        // let cardActual = 1;
-        // let listCard = ["product1", "product2", "product3", "product4"]
-        
-        // setInterval(changeProduct, 1000)
-
-        // function changeProduct() {
-
-        //     // Remove o card anterior
-        //     if (cardActual > 0) {
-        //         $("#cardlist").remove(listCard[cardActual - 1])
-        //     } else if (cardActual == 0) {
-        //         $("#cardlist").remove(listCard[(listCard.length) - 1])
-        //     }
-
-        //     // Adiciona o card atual
-        //     $("#cardlist").add(listCard[cardActual]);
-
-        //     // Indica o card atual
-        //     cardActual++
-        //     if (cardActual > (listCard.length) - 1) {
-        //         cardActual = 0;
-        //     }
-        // }
-            
-        
-        
-        
-        // Toggle Jquery
         $("#menu").toggleClass("menu-active")
-        
-        // Toggle manual
-        // if($("#menu").hasClass("menu-active")) {
-        //     $("#menu").removeClass("menu-active");
-        // } else {
-        //     $("#menu").addClass("menu-active");
-        // }
     })
 })
 
-// function showMenu() {
-//     let menu = document.getElementById("menu");
-
-//     if(getComputedStyle(menu).display == "none") {
-//         menu.style.display = "flex";
-//     } else {
-//         menu.style.display = "none"
-//     }
-// }
 
 // Função teste para registro de usuário
 function registerUser() {

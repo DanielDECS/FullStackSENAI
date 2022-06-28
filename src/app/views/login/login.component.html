@@ -1,1 +1,27 @@
-<p>login works!</p>
+<section class="container form">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="container-login">
+                <h2><img class="login-icon" src="../../../assets/img/right-to-bracket-solid.svg"
+                    alt="Icone de Login">Login</h2>
+                <form (ngSubmit)="receiveData()">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" placeholder="Ex.: email@email.com" name="email"
+                            class="form-control" [(ngModel)]="userModel.email">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="senha">Senha:</label>
+                        <input id="password" type="password" placeholder="Sua senha aqui..." name="password"
+                            class="form-control" [(ngModel)]="userModel.password">
+                    </div>
+                    <br>
+                    <input id="botao-enviar" type="submit" value="Fazer Login" class="btn btn-dark">
+                </form>
+                <!-- <p id="mensagem" *ngIf=" mensagem != '' ">{{ mensagem }}</p>
+                <p *ngIf=" usuarioLogado != '' ">{{ usuarioLogado }}</p> -->
+            </div>
+        </div>
+    </div>
+</section>

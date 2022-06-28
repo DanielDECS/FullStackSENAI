@@ -1,8 +1,8 @@
-/* Main section */
+/* Main section carousel */
 main {
     display: flex;
     flex-wrap: wrap;
-    margin: 70px;
+    margin: 20px;
     align-items: center;
 }
 
@@ -93,6 +93,9 @@ main {
 
 
 @media screen and (max-width: 1200px) {
+    .container {
+        width: 90vw;
+    }
 
     .product1, .product2, .product3, .product4 {
         width: 100%;
