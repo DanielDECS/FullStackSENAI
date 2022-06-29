@@ -51,6 +51,7 @@ main {
     height: 30px;
     border-radius: 20px;
     display: inline-block;
+    padding-top: 3px;
 }
 
 .card-button a {
@@ -58,6 +59,7 @@ main {
     color: #fff;
     text-align: center;
     font-size: 19px;
+
 
 }
 
