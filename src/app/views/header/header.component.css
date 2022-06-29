@@ -75,7 +75,7 @@ header {
     background-color: #3500AF;
     border-radius: 20px;
     width: 115px;
-    height: 45px;
+    height: 35px;
     padding: 5px;
     font-size: 22px;
 }
@@ -113,10 +113,7 @@ header {
         border-radius: 20px;
         margin-top: 10px;
         padding-bottom: 10px;
-    }
-
-    .menu-active {
-        display: flex;
+        justify-content: space-around;
     }
 
     #bars {
