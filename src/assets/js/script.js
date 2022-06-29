@@ -1,3 +1,15 @@
+//Função de exibição do menu de barras para layout responsivo
+function showMenu() {
+    let menu = document.getElementById("menu");
+
+    if(getComputedStyle(menu).display == "none") {
+        menu.style.display = "flex";
+    } else {
+        menu.style.display = "none"
+    }
+}
+
+
 //Função de exibição do menu carrousel
 function carrousel() {
     let product1 = document.getElementById("product1");
@@ -29,13 +41,6 @@ function carrousel() {
         }
     }
 }
-
-//Função de exibição do menu de barras para layout responsivo
-$(document).ready(function() {
-    $("#bars").click(function() {
-        $("#menu").toggleClass("menu-active")
-    })
-})
 
 
 // Função teste para registro de usuário

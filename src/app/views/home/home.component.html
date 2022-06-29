@@ -37,9 +37,9 @@
         </div>
     </section>
     <div class="carousel">
-        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
+        <ngb-carousel>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
                     <div id="product1" class="card" alt="First slide">
                         <div class="product1 product-global"></div>
                         <h3>Gamer 1</h3>
@@ -49,7 +49,9 @@
                         <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
                     </div>
                 </div>
-                <div class="carousel-item">
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
                     <div id="product2" class="card" alt="Second slide">
                         <div class="product2 product-global"></div>
                         <h3>Gamer 2</h3>
@@ -59,7 +61,9 @@
                         <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
                     </div>
                 </div>
-                <div class="carousel-item">
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
                     <div id="product3" class="card" alt="Third slide">
                         <div class="product3 product-global"></div>
                         <h3>Gamer 3</h3>
@@ -69,25 +73,19 @@
                         <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
                     </div>
                 </div>
-                <div class="carousel-item">
+            </ng-template>
+            <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
                     <div id="product4" class="card" alt="Fourth slide">
-                        <div class="product3 product-global"></div>
-                        <h3>Gamer 3</h3>
+                        <div class="product4 product-global"></div>
+                        <h3>Gamer 4</h3>
                         <p>PC Gamer Completo</p>
                         <p><b>R$ 11.000.00</b></p>
                         <p><b>10x</b> 1.100.00</p>
                         <div class="card-button"><a href="#" target="_blank">Comprar</a></div>
                     </div>
                 </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only"></span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only"></span>
-            </a>
-        </div>
+            </ng-template>
+        </ngb-carousel>
     </div>
 </main>

@@ -27,8 +27,7 @@
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "src/assets/js/script.js",
-              "src/assets/js/jquery.js"
+              "src/assets/js/script.js"
             ]
           },
           "configurations": {
