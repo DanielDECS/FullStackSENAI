@@ -6,7 +6,7 @@ namespace PRJ_CONTAS_BANCARIAS.Classes
     {
         public string ?nome { get; set; }
 
-        public string ?endereco  { get; set; }
+        public Endereco ?endereco  { get; set; }
         
         public float rendimento { get; set; }
 
