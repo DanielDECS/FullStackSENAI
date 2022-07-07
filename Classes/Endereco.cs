@@ -9,10 +9,5 @@ namespace PRJ_CONTAS_BANCARIAS.Classes
         public string? complemento { get; set; }
         
         public bool endComercial  { get; set; }
-
-        public static implicit operator string(Endereco v)
-        {
-            throw new NotImplementedException();
         }
-    }
 }
