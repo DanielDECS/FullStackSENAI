@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "email": "dansss@email.com",
+      "password": "sendan",
+      "nome": "Dan",
+      "id": 1
+    },
+    {
+      "email": "dan@email.com",
+      "password": "senhadan",
+      "nome": "Daniel",
+      "id": 2
+    },
+    {
+      "email": "adr@email.com",
+      "password": "$2a$10$8zZURVIZUGz1ugxLb6i8P.XsvLqf.cNFPwnPGRCbdTjzEW1jOEQxu",
+      "nome": "Adriano",
+      "id": 3
+    }
+  ]
+}
