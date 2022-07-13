@@ -1,7 +1,7 @@
 # Game-Mania-Testes
 Projeto de testes do Site Game Mania da unidade UC11 do curso Programador Full-Stack do Senai com Java
 
-Planejamento dos testes do site Game Mania
+# Planejamento dos testes do site Game Mania
 
 PRÉ-TESTE
 
