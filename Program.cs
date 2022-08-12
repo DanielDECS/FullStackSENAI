@@ -1,7 +1,7 @@
 ﻿
 using PRJ_CONTAS_BANCARIAS.Classes;
 
-// ATIVIDADE DO ENCONTRO REMOTO 5
+// ATIVIDADE DO ENCONTRO REMOTO 5 e 6
 
 Console.WriteLine(@$"
 ===============================================================================
@@ -59,7 +59,7 @@ do
             novaPf.nome = "Daniel";
             novaPf.dataNascimento = "23/03/1995";
             novaPf.cpf = "08807183756";
-            novaPf.rendimento = 400.0f;
+            novaPf.rendimento = 2400.0f;
             novoEndereco.logradouro = "Rua do Contorno";
             novoEndereco.numero = 539;
             novoEndereco.complemento = "Senai";
@@ -69,7 +69,8 @@ do
             Console.WriteLine(@$"
                 Nome: {novaPf.nome}
                 Endereco: {novaPf.endereco.logradouro}, {novaPf.endereco.numero}
-                Maior de idade: {metodoPf.ValidarDataNascimento(novaPf.dataNascimento)}
+                Maior de idade: {(metodoPf.ValidarDataNascimento(novaPf.dataNascimento) ? "Sim": "Não")}
+                Taxa de Imposto: {metodoPf.PagarImposto(novaPf.rendimento).ToString("C")}
             ");
 
             Console.WriteLine($"Aperte a tecla 'Enter' para continuar");
@@ -95,7 +96,8 @@ do
                 Nome: {novaPj.nome}
                 Razao Social: {novaPj.razaoSocial}
                 CNPJ: {novaPj.cnpj}
-                CNPJ é válido: {metodoPj.ValidarCnpj(novaPj.cnpj)}
+                CNPJ é válido: {(metodoPj.ValidarCnpj(novaPj.cnpj)?"Sim":"Não")}
+                Taxa de Imposto: {metodoPj.PagarImposto(novaPj.rendimento).ToString("C")}
             ");
 
             Console.WriteLine($"Aperte a tecla 'Enter' para continuar");
