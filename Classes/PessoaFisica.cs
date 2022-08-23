@@ -6,6 +6,8 @@ namespace PRJ_CONTAS_BANCARIAS.Classes
     {
         public string ?cpf { get; set; }
         public string ?dataNascimento { get; set; }
+
+        public string caminho { get; private set; } = "Database/PessoaFisica.csv";
         
         
         public override float PagarImposto(float rendimento)
@@ -56,5 +58,37 @@ namespace PRJ_CONTAS_BANCARIAS.Classes
             }
             return false;  
         }
+
+        public void Inserir(PessoaFisica pf)
+        {
+            VerificarPastaArquivo(caminho);
+
+            string[] pfString = {$"{pf.nome}, {pf.cpf}, {pf.dataNascimento}"};
+
+            File.AppendAllLines(caminho, pfString);
+        }
+
+        public List<PessoaFisica> Ler()
+        {
+            List<PessoaFisica> listaPf = new List<PessoaFisica>();
+
+            string[] linhas = File.ReadAllLines(caminho);
+
+
+            foreach (string cadaLinha in linhas)
+            {
+                string[] atributos = cadaLinha.Split(",");
+
+                PessoaFisica cadaPf = new PessoaFisica();
+                
+                cadaPf.nome = atributos[0];
+                cadaPf.cpf = atributos[1];
+                cadaPf.dataNascimento = atributos[2];
+
+                listaPf.Add(cadaPf);
+            }
+            return listaPf;
+        }
+
     }
 }

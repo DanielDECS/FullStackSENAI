@@ -1,6 +1,0 @@
-Informações de conta corrente de pessoa jurídica
-Nome: SENAI SP
-CNPJ: 22.456.345/0001-02
-Razão Social: Senai Tecnologia Sao Paulo
-Rendimento mensal: 400000
-Endereço: Rua Rua Rio de Janeiro, 345, Loja A

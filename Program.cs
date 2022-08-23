@@ -111,7 +111,7 @@ do
                         Console.WriteLine($"Digite o número");
                         novoEndereco.numero = int.Parse(Console.ReadLine());
 
-                        Console.WriteLine($"Digite o complemento (aperte ENTER para vazio");
+                        Console.WriteLine($"Digite o complemento (aperte ENTER para vazio)");
                         novoEndereco.complemento = Console.ReadLine();
 
                         Console.WriteLine($"Este endereço é comercial? S ou N");
@@ -137,6 +137,8 @@ do
                             sw.WriteLine($"Rendimento mensal: {novaPf.rendimento}");
                             sw.WriteLine($"Endereço: Rua {novoEndereco.logradouro}, {novoEndereco.numero}, {novoEndereco.complemento}");
                         }
+
+                        metodoPf.Inserir(novaPf);
 
                         listaPf.Add(novaPf);
                         
@@ -250,7 +252,7 @@ do
                         Console.WriteLine($"Digite o número");
                         novoEndPj.numero = int.Parse(Console.ReadLine());
 
-                        Console.WriteLine($"Digite o complemento (aperte ENTER para vazio");
+                        Console.WriteLine($"Digite o complemento (aperte ENTER para vazio)");
                         novoEndPj.complemento = Console.ReadLine();
 
                         Console.WriteLine($"Este endereço é comercial? S ou N");
@@ -276,6 +278,8 @@ do
                             sw.WriteLine($"Rendimento mensal: {novaPj.rendimento}");
                             sw.WriteLine($"Endereço: Rua {novoEndPj.logradouro}, {novoEndPj.numero}, {novoEndPj.complemento}");
                         }
+
+                        metodoPj.Inserir(novaPj);
 
                         listaPj.Add(novaPj);
 
