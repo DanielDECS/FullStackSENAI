@@ -1,7 +1,7 @@
 ﻿
 using PRJ_CONTAS_BANCARIAS.Classes;
 
-// ATIVIDADE DO ENCONTRO REMOTO 5 , 6 e 7
+// ATIVIDADE DO ENCONTRO REMOTO 5 , 6 , 7 e 8
 
 Console.WriteLine(@$"
 ===============================================================================
@@ -76,6 +76,8 @@ do
                         Endereco novoEndereco = new Endereco();
                         Console.WriteLine($"Digite o nome da pessoa física que deseja cadastrar");
                         novaPf.nome = Console.ReadLine();
+                        
+                        
                         bool dataValida;
                         do
                         {
@@ -124,7 +126,20 @@ do
                             novoEndereco.endComercial = false;
                         }
                         novaPf.endereco = novoEndereco;
+
+                        
+                        using (StreamWriter sw = new StreamWriter($"CC_PF_{novaPf.nome}.txt"))
+                        {
+                            sw.WriteLine("Informações de conta corrente de pessoa física");
+                            sw.WriteLine($"Nome: {novaPf.nome}");
+                            sw.WriteLine($"CPF: {novaPf.cpf}");
+                            sw.WriteLine($"Data de nascimento: {novaPf.dataNascimento}");
+                            sw.WriteLine($"Rendimento mensal: {novaPf.rendimento}");
+                            sw.WriteLine($"Endereço: Rua {novoEndereco.logradouro}, {novoEndereco.numero}, {novoEndereco.complemento}");
+                        }
+
                         listaPf.Add(novaPf);
+                        
                         Console.ForegroundColor = ConsoleColor.DarkGreen;
                         Console.WriteLine($"Cadastro Realizado com Sucesso!!!");
                         Console.ResetColor();
@@ -250,7 +265,20 @@ do
                             novoEndPj.endComercial = false;
                         }
                         novaPj.endereco = novoEndPj;
+
+
+                        using (StreamWriter sw = new StreamWriter($"CC_PJ_{novaPj.nome}.txt"))
+                        {
+                            sw.WriteLine("Informações de conta corrente de pessoa jurídica");
+                            sw.WriteLine($"Nome: {novaPj.nome}");
+                            sw.WriteLine($"CNPJ: {novaPj.cnpj}");
+                            sw.WriteLine($"Razão Social: {novaPj.razaoSocial}");
+                            sw.WriteLine($"Rendimento mensal: {novaPj.rendimento}");
+                            sw.WriteLine($"Endereço: Rua {novoEndPj.logradouro}, {novoEndPj.numero}, {novoEndPj.complemento}");
+                        }
+
                         listaPj.Add(novaPj);
+
                         Console.ForegroundColor = ConsoleColor.DarkGreen;
                         Console.WriteLine($"Cadastro Realizado com Sucesso!!!");
                         Console.ResetColor();
