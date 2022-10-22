@@ -58,3 +58,4 @@ C:\Workspace\Senai\Chapter\Chapter\Chapter\obj\Debug\net6.0\refint\Chapter.dll
 C:\Workspace\Senai\Chapter\Chapter\Chapter\obj\Debug\net6.0\Chapter.pdb
 C:\Workspace\Senai\Chapter\Chapter\Chapter\obj\Debug\net6.0\Chapter.genruntimeconfig.cache
 C:\Workspace\Senai\Chapter\Chapter\Chapter\obj\Debug\net6.0\ref\Chapter.dll
+C:\Workspace\Senai\Chapter\Chapter\Chapter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
