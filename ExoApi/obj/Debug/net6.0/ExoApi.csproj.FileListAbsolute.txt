@@ -58,3 +58,4 @@ C:\Workspace\Senai\ExoApi\ExoApi\ExoApi\obj\Debug\net6.0\refint\ExoApi.dll
 C:\Workspace\Senai\ExoApi\ExoApi\ExoApi\obj\Debug\net6.0\ExoApi.pdb
 C:\Workspace\Senai\ExoApi\ExoApi\ExoApi\obj\Debug\net6.0\ExoApi.genruntimeconfig.cache
 C:\Workspace\Senai\ExoApi\ExoApi\ExoApi\obj\Debug\net6.0\ref\ExoApi.dll
+C:\Workspace\Senai\ExoApi\ExoApi\ExoApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
