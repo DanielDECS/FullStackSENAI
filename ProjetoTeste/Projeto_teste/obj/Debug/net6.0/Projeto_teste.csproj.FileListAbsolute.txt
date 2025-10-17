@@ -1,0 +1,12 @@
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\bin\Debug\net6.0\Projeto_teste.deps.json
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\bin\Debug\net6.0\Projeto_teste.dll
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\bin\Debug\net6.0\Projeto_teste.pdb
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.csproj.AssemblyReference.cache
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.AssemblyInfoInputs.cache
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.AssemblyInfo.cs
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.csproj.CoreCompileInputs.cache
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.dll
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\obj\Debug\net6.0\refint\Projeto_teste.dll
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\obj\Debug\net6.0\Projeto_teste.pdb
+C:\Workspace\Senai\Projeto_teste\Projeto_teste\Projeto_teste\obj\Debug\net6.0\ref\Projeto_teste.dll
