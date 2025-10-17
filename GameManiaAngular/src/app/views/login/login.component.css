@@ -1,0 +1,21 @@
+/* Login sextion */
+
+.form {
+    height: 550px;
+}
+.container-login {
+    margin: 20px;
+    display: block;
+    height: 100%;
+}
+
+.login-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.container-login h2 {
+    margin-top: 90px;
+}
+
+
