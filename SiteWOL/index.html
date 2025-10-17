@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WOL Cursos On-line</title>
+    <link rel="shortcut icon" href="/images/favicon.png">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" media="screen"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+</head>
+
+<body>
+
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v9.0"
+        nonce="GBttOuOs"></script>
+
+    <header class="pt-0 mb-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <!-- IMAGEM LOGO -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/owl_logo_nav.png" id="logo" alt="Logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarEAD"
+                    aria-controls="navbarEAD" aria-expanded="false" aria-label="Navegação Hambúrger">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarEAD">
+
+                    <!-- INPUT PARA BUSCA -->
+                    <form class="form-inline center" action="#">
+                        <div class="input-group">
+                            <input class="form-control" type="text" placeholder="Buscar" onkeyup="filter()"
+                                id="input-search">
+                            <div class="input-group-append">
+                                <span class="input-group-text btn-pesquisar">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                    <!-- LINKS A DIREITA -->
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="center pt-3" id="banner">
+        <img class="banner img-fluid" src="images/banner2.png" />
+    </div>
+
+    <!--banner-->
+
+    <section class="loja">
+
+        <div class="center" id="div-curso">
+
+            <div class="logo-curso">
+                <div class="caixa-individual-loja">
+                    <img src="images/cursogit.jpg " class="img-fluid" />
+                    <h2>Curso de GitHub</h2>
+                    <p>Para você que precisa trabalhar em equipe e/ou manter seu codigo na nuvem facilitando a
+                        atualização, nós temos a solução, o curso totalmente online, e de facil apreendizado.</p>
+                </div>
+                <!--caixa-individual-loja-->
+                <a href="./pages/curso_github.html" class="nounderline">Conhecer o curso!</a>
+            </div>
+            <!--logo-curso-->
+
+            <div class="logo-curso">
+                <div class="caixa-individual-loja">
+                    <img src="images/cursojavascript.jpg" class="img-fluid" />
+                    <h2>Curso de JavaScript</h2>
+                    <p>Nesse Curso você aprenderá todas as habilidades essenciais para começar a pensar como um
+                        programador e desenvolver sua lógica de programação.</p>
+                </div>
+                <!--caixa-individual-loja-->
+                <a href="./pages/curso_javascript.html" class="nounderline">Conhecer o curso!</a>
+
+            </div>
+            <!--logo-curso-->
+            <div class="logo-curso">
+                <div class="caixa-individual-loja">
+                    <img src="images/curso_css.jpg" class="img-fluid" />
+                    <h2>Curso de CSS</h2>
+                    <p>Ensinaremos para você a base que você precisa ter sobre CSS para começar na área de
+                        desenvolvimento web.</p>
+                </div>
+                <!--caixa-individual-loja-->
+                <a href="./pages/curso_css.html" class="nounderline">Conhecer o curso!</a>
+            </div>
+            <!--logo-curso-->
+
+
+        </div>
+        <!--center-->
+
+    </section>
+    <!--loja-->
+    <br />
+    <section class="texto-chamada">
+        <div class="center">
+            <h2>Últimas Novidades da <img src="images/owl_logo_nav.png" id="logo" alt="Logo"></h2>
+
+        </div>
+        <!--center-->
+    </section>
+    <!--texto-chamada-->
+
+    <section class="novidades">
+        <div class="center">
+            <div class="largura50 noticias">
+                <h1>Notícias:</h1>
+                <div class="caixa-individual-noticia">
+
+                </div>
+
+            </div>
+            <!--largura50-->
+            <div class="largura50 depoimentos">
+                <h1>Depoimentos</h1>
+                <h5><b>Daniel de Souza</b> "Gostei do conteúdo, me agregou muito valor"</h5>
+                <h5><b>Paula de Cunha</b> "Conteúdo prático e atual, valeu a pena"</h5>
+                <div class="fb-comments" data-href="#" data-numposts="5" data-width=""></div>
+            </div>
+            <!--depoimentos-->
+            <div class="clear">
+                <div></div>
+            </div>
+            <!--clear-->
+        </div>
+        <!--center-->
+    </section>
+    <!--novidades-->
+
+    <footer>
+        <div class="center">
+            <div class="largura50">
+                <p><i class="fas fa-envelope"></i> E-mail: contato@wolcursos.com</p>
+                <p><i class="fas fa-phone"></i> Telefone: (11) 98888-9999</p>
+            </div>
+            <!--largura50-->
+            <div class="largura50 text-right">
+                <p>Todos os direitos reservados!</p>
+            </div>
+            <!--largura50-->
+            <div class="clear"></div>
+            <!--clear-->
+        </div>
+        <!--center-->
+    </footer>
+    <script src="js/news.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>
