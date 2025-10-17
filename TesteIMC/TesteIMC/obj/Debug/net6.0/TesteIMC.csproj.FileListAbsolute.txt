@@ -1,0 +1,12 @@
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\bin\Debug\net6.0\TesteIMC.deps.json
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\bin\Debug\net6.0\TesteIMC.dll
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\bin\Debug\net6.0\TesteIMC.pdb
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.csproj.AssemblyReference.cache
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.AssemblyInfoInputs.cache
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.AssemblyInfo.cs
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.csproj.CoreCompileInputs.cache
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.dll
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\refint\TesteIMC.dll
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\TesteIMC.pdb
+C:\Workspace\Senai\TesteIMC\TesteIMC\TesteIMC\obj\Debug\net6.0\ref\TesteIMC.dll
